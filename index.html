@@ -6,108 +6,95 @@
 <title>Gregor Verlaine — Personal Archive</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="site">
+<div class="page">
+<header class="topbar">
+  <a class="logo" href="#home">GREGOR<br>VERLAINE</a>
+  <nav>
+    <a href="#home">HOME</a><a href="#profile">PROFILE</a><a href="#archive">ARCHIVE</a><a href="#contact">CONTACT</a>
+  </nav>
+  <button class="menu" aria-label="Open menu">MENU +</button>
+</header>
 
-  <header class="nav card">
-    <a class="brand" href="#top">GREGOR<br>VERLAINE</a>
-    <button class="menu" aria-label="Open navigation">MENU <span>＋</span></button>
-    <nav>
-      <a href="#about">ABOUT</a>
-      <a href="#archive">ARCHIVE</a>
-      <a href="#notes">NOTES</a>
-      <a href="#contact">CONTACT</a>
-    </nav>
-  </header>
+<main id="home">
+<section class="opening">
+  <div class="main-photo panel">
+    <img src="images/main.jpg" alt="Gregor Verlaine">
+    <div class="tag">01 / PORTRAIT</div>
+    <div class="caption">LONDON · 2026</div>
+  </div>
 
-  <main id="top">
-    <section class="intro">
-      <div class="photo card">
-        <div class="photo-label">01 / PORTRAIT</div>
-        <div class="photo-placeholder">YOUR<br>PHOTOGRAPH</div>
-        <div class="photo-meta">LONDON · 2026</div>
-      </div>
+  <div class="intro panel" id="profile">
+    <div>
+      <div class="eyebrow">PERSONAL PROFILE</div>
+      <h1>Gregor<br><i>Verlaine</i></h1>
+      <p class="bio">Gregor Verlaine mantiene una relación deliberadamente discreta con el mundo que lo rodea. De temperamento reservado y observador, encuentra particular afinidad en aquello que exige precisión, paciencia y atención al detalle. La música, la literatura y la composición visual ocupan buena parte de su esfera personal, mientras que su interés por la gastronomía y la arquitectura responde a una curiosidad más amplia por las formas en que el ser humano construye, transforma y habita sus espacios.</p>
+      <p class="bio">Fuera del ámbito profesional, prefiere la quietud al protagonismo y la observación a la exposición. No parece existir en él una necesidad particular de ser comprendido de inmediato; algunas cosas, después de todo, adquieren mayor claridad cuando se les concede suficiente distancia.</p>
+    </div>
+    <div class="identity">
+      <div><small>IDENTITY</small><b>28 · BRITISH · LONDON</b></div>
+      <div><small>SERVICE</small><b>ROYAL NAVY · FLEET AIR ARM</b></div>
+      <div><small>RANK / SPECIALTY</small><b>LIEUTENANT · NAVAL FAST-JET PILOT</b></div>
+      <div><small>CALLSIGN</small><b>STEPPENWOLF</b></div>
+    </div>
+  </div>
+</section>
 
-      <div class="profile card" id="about">
-        <p class="eyebrow">PERSONAL PROFILE</p>
-        <h1>Gregor<br><em>Verlaine</em></h1>
-        <p class="lead">A private archive of aviation, literature, music and the quieter details between them.</p>
+<section class="index panel">
+  <div class="eyebrow">02 / PERSONAL INDEX</div>
+  <div class="index-grid">
+    <div><span>01</span><b>AVIATION</b></div>
+    <div><span>02</span><b>LITERATURE</b></div>
+    <div><span>03</span><b>MUSIC</b></div>
+    <div><span>04</span><b>LANGUAGES</b></div>
+    <div><span>05</span><b>VISUALS</b></div>
+    <div><span>06</span><b>CUISINE</b></div>
+  </div>
+</section>
 
-        <div class="details">
-          <div><span>01</span><b>Occupation</b><p>Naval Fast-Jet Pilot</p></div>
-          <div><span>02</span><b>Residence</b><p>London, UK</p></div>
-          <div><span>03</span><b>Languages</b><p>English · Spanish · French</p></div>
-          <div><span>04</span><b>Interests</b><p>Music · Design · Literature</p></div>
-        </div>
-      </div>
-    </section>
+<section class="quote">
+  <div class="eyebrow">03 / LITERARY MARK</div>
+  <h2>LOBO<br><i>ESTEPARIO</i></h2>
+</section>
 
-    <section class="statement card">
-      <p class="eyebrow">02 / STATEMENT</p>
-      <p class="statement-text">“There is something strangely precise about silence: it leaves room for everything that words would otherwise obscure.”</p>
-      <div class="line-meta"><span>PERSONAL NOTES</span><span>SCROLL TO CONTINUE ↓</span></div>
-    </section>
+<section id="archive" class="archive">
+  <div class="archive-head"><div class="eyebrow">04 / ARCHIVE</div><h2>Selected<br><i>fragments.</i></h2></div>
+  <div class="archive-grid">
+    <article class="work panel"><img class="art" src="images/archive-1.jpg" alt="Literature"><div class="work-text"><small>01 — LITERATURE</small><h3>Reading / Personal Library</h3></div></article>
+    <article class="work panel"><img class="art" src="images/archive-2.jpg" alt="Private study"><div class="work-text"><small>02 — PRIVATE STUDY</small><h3>Design / Visual Archive</h3></div></article>
+    <article class="work panel"><img class="art" src="images/archive-3.jpg" alt="Motorcycle racing"><div class="work-text"><small>03 — ARCHIVE</small><h3>Motorcycle Racing / Former Era</h3></div></article>
+    <article class="work panel"><img class="art" src="images/archive-4.jpg" alt="F-35B aviation"><div class="work-text"><small>04 — AVIATION</small><h3>F-35B / Maritime Operations</h3></div></article>
+    <article class="work panel"><img class="art" src="images/archive-5.jpg" alt="Maritime operations"><div class="work-text"><small>05 — OPERATIONS</small><h3>Maritime / Operational Record</h3></div></article>
+    <article class="work panel"><img class="art" src="images/archive-6.jpg" alt="London"><div class="work-text"><small>06 — LONDON</small><h3>Residence / Urban Archive</h3></div></article>
+    <article class="work panel"><img class="art" src="images/archive-7.jpg" alt="Royal Navy"><div class="work-text"><small>07 — ROYAL NAVY</small><h3>Service / Personal Record</h3></div></article>
+  </div>
+</section>
 
-    <section id="archive" class="section">
-      <div class="section-head">
-        <p class="eyebrow">03 / ARCHIVE</p>
-        <h2>Selected<br><em>fragments.</em></h2>
-      </div>
+<section class="maeva panel">
+  <div class="person">
+    <div class="avatar-photo"><img src="images/maeva.jpg" alt="Maeva"></div>
+    <div><h3>Maeva</h3><span>Journalist</span></div>
+  </div>
+  <blockquote>“Durante prácticamente toda su juventud, el motociclismo constituyó el eje de su vida. A los veintiún años anunció su retiro sin que mediara accidente, controversia o conflicto alguno; sencillamente, había llegado el momento de clausurar aquella etapa. El interés que desde temprana edad había manifestado por la vida militar encontró entonces una nueva dirección. Los siete años posteriores transcurrieron deliberadamente alejados del escrutinio público.”</blockquote>
+</section>
 
-      <div class="grid">
-        <article class="project card large">
-          <div class="project-image image-one">01</div>
-          <div class="project-info"><span>01 — MUSIC</span><h3>Sound &amp; solitude</h3><p>Records, late-night listening and compositions kept close.</p></div>
-        </article>
+<section class="social-panel panel" id="contact">
+  <div class="eyebrow">05 / ELSEWHERE</div>
+  <div class="socials">
+    <a href="https://tellonym.me/lenguaje" target="_blank" rel="noopener">Tellonym <span>Lenguaje</span> ↗</a>
+    <a href="https://x.com/lobespario" target="_blank" rel="noopener">X <span>@lobespario</span> ↗</a>
+    <a href="https://www.instagram.com/desteorema" target="_blank" rel="noopener">Instagram <span>@desteorema</span> ↗</a>
+  </div>
+</section>
+</main>
 
-        <article class="project card large">
-          <div class="project-image image-two">02</div>
-          <div class="project-info"><span>02 — DESIGN</span><h3>Visual language</h3><p>Typography, composition and the architecture of an image.</p></div>
-        </article>
-
-        <article class="project card">
-          <div class="project-image image-three">03</div>
-          <div class="project-info"><span>03 — READING</span><h3>Margins</h3><p>Kafka, Pizarnik, Cortázar and other traces.</p></div>
-        </article>
-
-        <article class="project card">
-          <div class="project-image image-four">04</div>
-          <div class="project-info"><span>04 — CITY</span><h3>London studies</h3><p>Concrete, glass, rain and negative space.</p></div>
-        </article>
-      </div>
-    </section>
-
-    <section id="notes" class="notes card">
-      <div>
-        <p class="eyebrow">04 / NOTES</p>
-        <h2>A small collection<br>of <em>observations.</em></h2>
-      </div>
-      <div class="notes-list">
-        <p><span>24.09.26</span> — On music, memory and the strange persistence of certain songs.</p>
-        <p><span>17.09.26</span> — A preference for quiet rooms, black coffee and unfinished sentences.</p>
-        <p><span>03.09.26</span> — Some things are better understood after the noise has disappeared.</p>
-      </div>
-    </section>
-
-    <section id="contact" class="contact card">
-      <p class="eyebrow">05 / CONTACT</p>
-      <h2>Leave a<br><em>message.</em></h2>
-      <a class="contact-link" href="mailto:hello@example.com">hello@example.com <span>↗</span></a>
-    </section>
-  </main>
-
-  <footer>
-    <span>GREGOR VERLAINE © 2026</span>
-    <span>LONDON · PERSONAL ARCHIVE</span>
-  </footer>
+<footer><span>GREGOR VERLAINE © 2026</span><span>LONDON · PERSONAL ARCHIVE</span></footer>
 </div>
 <script>
-document.querySelector('.menu').addEventListener('click', () => {
-  document.querySelector('.nav').classList.toggle('open');
-});
+document.querySelector('.menu').addEventListener('click',()=>document.querySelector('.topbar').classList.toggle('open'));
 </script>
 </body>
 </html>
