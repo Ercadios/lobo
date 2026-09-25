@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gregor Verlaine — Personal Archive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="site">
+
+  <header class="nav card">
+    <a class="brand" href="#top">GREGOR<br>VERLAINE</a>
+    <button class="menu" aria-label="Open navigation">MENU <span>＋</span></button>
+    <nav>
+      <a href="#about">ABOUT</a>
+      <a href="#archive">ARCHIVE</a>
+      <a href="#notes">NOTES</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="intro">
+      <div class="photo card">
+        <div class="photo-label">01 / PORTRAIT</div>
+        <div class="photo-placeholder">YOUR<br>PHOTOGRAPH</div>
+        <div class="photo-meta">LONDON · 2026</div>
+      </div>
+
+      <div class="profile card" id="about">
+        <p class="eyebrow">PERSONAL PROFILE</p>
+        <h1>Gregor<br><em>Verlaine</em></h1>
+        <p class="lead">A private archive of aviation, literature, music and the quieter details between them.</p>
+
+        <div class="details">
+          <div><span>01</span><b>Occupation</b><p>Naval Fast-Jet Pilot</p></div>
+          <div><span>02</span><b>Residence</b><p>London, UK</p></div>
+          <div><span>03</span><b>Languages</b><p>English · Spanish · French</p></div>
+          <div><span>04</span><b>Interests</b><p>Music · Design · Literature</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement card">
+      <p class="eyebrow">02 / STATEMENT</p>
+      <p class="statement-text">“There is something strangely precise about silence: it leaves room for everything that words would otherwise obscure.”</p>
+      <div class="line-meta"><span>PERSONAL NOTES</span><span>SCROLL TO CONTINUE ↓</span></div>
+    </section>
+
+    <section id="archive" class="section">
+      <div class="section-head">
+        <p class="eyebrow">03 / ARCHIVE</p>
+        <h2>Selected<br><em>fragments.</em></h2>
+      </div>
+
+      <div class="grid">
+        <article class="project card large">
+          <div class="project-image image-one">01</div>
+          <div class="project-info"><span>01 — MUSIC</span><h3>Sound &amp; solitude</h3><p>Records, late-night listening and compositions kept close.</p></div>
+        </article>
+
+        <article class="project card large">
+          <div class="project-image image-two">02</div>
+          <div class="project-info"><span>02 — DESIGN</span><h3>Visual language</h3><p>Typography, composition and the architecture of an image.</p></div>
+        </article>
+
+        <article class="project card">
+          <div class="project-image image-three">03</div>
+          <div class="project-info"><span>03 — READING</span><h3>Margins</h3><p>Kafka, Pizarnik, Cortázar and other traces.</p></div>
+        </article>
+
+        <article class="project card">
+          <div class="project-image image-four">04</div>
+          <div class="project-info"><span>04 — CITY</span><h3>London studies</h3><p>Concrete, glass, rain and negative space.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="notes" class="notes card">
+      <div>
+        <p class="eyebrow">04 / NOTES</p>
+        <h2>A small collection<br>of <em>observations.</em></h2>
+      </div>
+      <div class="notes-list">
+        <p><span>24.09.26</span> — On music, memory and the strange persistence of certain songs.</p>
+        <p><span>17.09.26</span> — A preference for quiet rooms, black coffee and unfinished sentences.</p>
+        <p><span>03.09.26</span> — Some things are better understood after the noise has disappeared.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact card">
+      <p class="eyebrow">05 / CONTACT</p>
+      <h2>Leave a<br><em>message.</em></h2>
+      <a class="contact-link" href="mailto:hello@example.com">hello@example.com <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <span>GREGOR VERLAINE © 2026</span>
+    <span>LONDON · PERSONAL ARCHIVE</span>
+  </footer>
+</div>
+<script>
+document.querySelector('.menu').addEventListener('click', () => {
+  document.querySelector('.nav').classList.toggle('open');
+});
+</script>
+</body>
+</html>
